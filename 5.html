@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+<meta charset="UTF-8">
+<title>Варнавино</title>
+<style type="text/css">
+a{
+color: black;
+text-decoration: none;
+}
+html{
+background: #FFF8CC;
+min-height: 100%;
+font-family: Helvetica;
+display: flex;
+flex-direction: column;
+}
+body{
+margin: 0;
+padding: 0 15px;
+display: flex;
+flex-direction: column;
+flex: auto;
+}
+h1{
+margin-top: 0;
+}
+h1, p{
+color: orange;
+}
+img{
+border: 0;
+}
+.header{
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: 0 auto 30px;
+padding: 30px 0 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+box-sizing: border-box;
+}
+.logo{
+font-size: 1.5rem;
+color: black;
+text-decoration: none;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex: none;
+align-items: center;
+background: #839FFF;
+width: 130px;
+height: 50px;
+}
+.nav{
+margin: -5px 0 0 -5px;
+display: flex;
+flex-wrap: wrap;
+}
+.nav-item{
+background: #BDC7FF;
+width: 130px;
+height: 50px;
+font-size: 1.5rem;
+color: black;
+text-decoration: none;
+display: flex;
+margin: 5px 0 0 5px;
+justify-content: center;
+align-items: center;
+}
+.sqr{
+height: 300px;
+width: 300px;
+background: #FFDB89;
+}
+
+.main{
+width: 100%;
+min-width: 460px;
+max-width: 960px;
+margin: auto;
+flex: auto;
+box-sizing: border-box;
+}
+.box{
+font-size: 1.25rem;
+line-height: 1.5;
+margin: 0 0 40px -50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.box-base{
+margin-left: 50px;
+flex: 1 0 430px;
+}
+.box-side{
+margin-left: 50px;
+font: none;
+}
+.box-img{
+max-width: 100%;
+height: auto;
+}
+.content{
+margin-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+}
+.banners{
+flex: 1 1 200px;
+}
+.banner{
+background: #FFDB89;
+width: 100%;
+min-width: 100px;
+min-height: 200px;
+font-size: 3rem;
+color: black;
+margin: 0 0 30px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.posts{
+margin: 0 0 30px 30px;
+flex: 1 1 200px;
+}
+.comments{
+margin: 0 0 30px 30px;
+flex: 1 1 200px;
+}
+.comment{
+display: flex;
+}
+.comment-side{
+padding-right: 20px;
+flex: none;
+}
+.comment-base{
+flex: auto;
+}
+.comment-avatar{
+background: #FFA985;
+width: 50px;
+height: 50px;
+}
+.footer{
+background: #FF3366;
+width: 100%;
+max-width: 960px;
+min-width: 460px;
+color: #fff;
+margin: auto;
+padding: 15px;
+box-sizing: border-box;
+}
+
+@media screen and  (max-width: 800px) {
+.banners{
+margin-left: -30px;
+display: flex;
+flex-basis: 100%;
+}
+.banner{
+margin-left: 50px;
+}
+.posts{
+margin-left: 0;
+}
+}
+@media screen and  (max-width: 600px) {
+.content{
+display: block;
+}
+.banners{
+margin: 10;
+display: block;
+align="right"
+}
+.banner{
+margin-left: 10;
+}
+.posts{
+margin: 0;
+}
+}
+</style>
+</head>
+<body>
+<header class="header">
+
+<nav class="nav">
+<a href="#posts" class="nav-item">Инфо</a>
+<a href="#footer" class="nav-item">Контакты</a>
+</nav>
+
+</header>
+<main class="main">
+<div class="box">
+<div class="box-base">
+
+<div class=ex4><h1>Варнавинский район</h1></div>
+<p>Один из самых красивых районов, самых " зелёных " и экологически чистых, расположен на севере Нижегородской области. Здесь нет промышленных предприятий от слова Совсем. Леса покрывают почти 70% его территории.
+</p>
+</div>
+<img class="banner" src="https://sun9-19.userapi.com/impg/79VET81qdxNIICk8CT9fthadsC9ScnRSNTVBJA/nDQRftX6T2Y.jpg?size=1202x797&quality=95&sign=d92e08eb69bad12abaf95c06f5563ebd&type=album" vspace="10" border="3" alt="картинка">
+
+<div class="content">
+<div class="banners">
+<div align="right">
+<img class="banner" src="https://sun9-7.userapi.com/impg/WSOvGwndheTSvlG2TjAUqH4v8iE04uC4vIS5Hg/2JplVojpZNs.jpg?size=1202x797&quality=95&sign=541fcd0cc86ecfc23c5cdbdaa173bde4&type=album" width="190" height="260">
+<div class="posts"  id="posts">
+<div class="post">
+<h1>Информация</h1>
+<p>Расположен на севере Нижегородской области, в среднем течении р.Ветлуги. Административный центр района - рабочий поселок Варнавино, в котором проживает 3,2 тыс.чел. или 23% всего населения района. В 2005 году Варнавинский район признан победителем Всероссийского конкурса «Экологически чистый район (территория)».  <a href="http://варнавино-район.рф//"> Подробнее...</a> </p>
+</div>
+<div class="post">
+
+<img class="banner" src="https://sun9-2.userapi.com/impg/Du7JsFj9e0YtFU7fBd5VrIdqEXPhZBVWmq4Fug/i9qn71_s53U.jpg?size=1080x407&quality=95&sign=d4a9285898f8209a676e70e35cf734cc&type=album">
+<h1>Варнавинская година</h1>
+<p align="left">Варнавинская Година – день памяти преподобного Варнавы Ветлужского. Ежегодно празднуется как дата основания Варнавина - 24 июня. <a href="https://varnavino.nobl.ru/presscenter/news/40280/"> Нажмите, чтобы посмотреть расписание мероприятий годины 2023 </a> </p>
+<br>
+<br>
+</div>
+
+<img class="banner" src="https://sun9-78.userapi.com/impg/wiUyQ7n57Sxg1fvJjVuQ7emK07RY6xon9axD_w/PJ_ek2Sp7VU.jpg?size=600x148&quality=95&sign=76ceae297998f301b0ca286837379738&type=album">
+
+<div class="post">
+<h1>Варнавинская резьба</h1>
+<p align="left">Варна́винская резьба́ — резьба по кости, сформировавшаяся в 1970-х годах в посёлке Варнавино Нижегородской области. Основателем направления стал мастер художественной резьбы по кости Парфён Черников, переехавший в Варнавино из Архангельской области в рамках программы по возрождению народных промыслов. В качестве основы для резьбы используют трубчатые кости и рога крупного рогатого скота. <a href="https://xn--80adzqi.xn--p1ai/?ysclid=lvb0kldg7283406867"> ВАРКО-Варнавинская художественная фабрика резьбы по кости.</a> </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</main>
+<footer class="footer"  id="footer">
+Контактный номер телефона: +7999000999
+</footer>
+</body>
+</html>
